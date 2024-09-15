@@ -1,8 +1,8 @@
-// pages/api/getBalance.js
-import { NextResponse } from "next/server";
+// app/api/balance/route.ts
+import { NextRequest, NextResponse } from "next/server";
 import { Connection, PublicKey, clusterApiUrl, LAMPORTS_PER_SOL } from "@solana/web3.js";
 
-export async function POST(request) {
+export async function POST(request: NextRequest) {
   try {
     // Parse the request body
     const { publicKey } = await request.json();
