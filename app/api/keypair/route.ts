@@ -10,11 +10,13 @@ export async function GET() {
   const publicKey = keypair.publicKey.toBase58();
   const secretKey = keypair.secretKey;
 
-  console.log(`The public key is: `, publicKey);
-  console.log(`The secret key is: `, secretKey);
+//   console.log(`The public key is: `, publicKey);
+//   console.log(`The secret key is: `, secretKey);
 
-  return NextResponse.json({
+  const response = NextResponse.json({
     publicKey,
     secretKey: Array.from(secretKey), // Convert Uint8Array to a regular array for JSON compatibility
   });
+  response.headers.set('Cache-Control', 'no-store');
+  return response;
 }
