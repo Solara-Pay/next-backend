@@ -1,11 +1,11 @@
-// app/api/balance/route.ts
 import { NextRequest, NextResponse } from "next/server";
 import { Connection, PublicKey, clusterApiUrl, LAMPORTS_PER_SOL } from "@solana/web3.js";
 
 export async function POST(request: NextRequest) {
   try {
-    // Parse the request body
-    const { publicKey } = await request.json();
+    // Parse the JSON request body
+    const body = await request.json();
+    const publicKey = body.publicKey;
 
     if (!publicKey) {
       return NextResponse.json({ error: "Public key is required" }, { status: 400 });
@@ -17,8 +17,6 @@ export async function POST(request: NextRequest) {
     // Fetch the account balance
     const balance = await connection.getBalance(address);
     const balanceInSol = balance / LAMPORTS_PER_SOL;
-
-    console.log(`The balance of the account at ${address} is ${balanceInSol} SOL`);
 
     // Return the balance as JSON
     return NextResponse.json({ balanceInSol });
