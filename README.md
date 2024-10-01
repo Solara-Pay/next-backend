@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+This is the Solara Pay Next.js Backend, we relay on this to effectively communicate with the Solana Blockchain
 
 ## Getting Started
 
