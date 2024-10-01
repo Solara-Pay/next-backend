@@ -1,12 +1,4 @@
 {
-    "headers": [
-      {
-        "source": "/api/(.*)",
-        "headers": [
-          { "key": "Cache-Control", "value": "no-store" }
-        ]
-      }
-    ],
     "functions": {
       "api/transaction/new/route.ts": {
         "maxDuration": 90
