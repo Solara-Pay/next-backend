@@ -1,36 +1,31 @@
-This is the Solara Pay Next.js Backend, we relay on this to effectively communicate with the Solana Blockchain
+# Solara Pay - Next Backend
+
+![Solara Pay](https://pbs.twimg.com/profile_images/1842198737097048064/z-70200B_400x400.jpg)
+
+## Overview
+
+**Solara Pay Next Backend** is a critical component of the Solara Pay Project. It is responsible for generating Solana blockchain wallets and stimulating transactions that occur on the Solana network. This service allows seamless integration with the Solana blockchain, enabling Solara Pay to automate payroll disbursements and financial transactions globally.
+
+## Key Features
+
+- **Solana Wallet Generation**: Automatically create secure Solana wallets for users or companies to facilitate salary disbursements and payments on the blockchain.
+
+- **Transaction Processing**: Handle all interactions with the Solana blockchain, including initiating, signing, and monitoring transactions in real time.
+
+- **Integration with Solara Pay**: This backend is used by Solara Pay to stimulate and automate transactions as part of the payroll scheduling system, ensuring accurate and on-time disbursements.
+
+- **Scalable & Secure**: Built to handle high volumes of transactions securely, leveraging Solana’s blockchain to offer low-cost, fast, and secure payments.
+
+## Technologies Used
+
+- **Solana Web3.js**: Used to interact with the Solana blockchain for wallet generation and transaction handling.
 
 ## Getting Started
 
-First, run the development server:
+### 1. Clone the Repository
 
 ```bash
+git clone https://github.com/Solara-Pay/next-backend.git
+cd next-backend
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
