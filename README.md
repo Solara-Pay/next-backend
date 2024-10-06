@@ -20,6 +20,16 @@
 
 - **Solana Web3.js**: Used to interact with the Solana blockchain for wallet generation and transaction handling.
 
+## Important Repositories
+For Solara Pay to function properly, the following Repositories are important, we recommend checking out the following repositories:
+
+1. **[Solara Pay API & Scheduling System](https://github.com/Solara-Pay/api-backend)**
+ This repository houses the core API and Payroll Scheduling System of **Solara Pay**
+
+2. **[Solara Pay Web Interface](https://github.com/Solara-Pay/web)**
+   The user interface for managing payrolls, adding employees, and scheduling payments.
+
+
 ## Getting Started
 
 ### 1. Clone the Repository
