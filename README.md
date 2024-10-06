@@ -4,7 +4,7 @@
 
 ## Overview
 
-**Solara Pay Next Backend** is a critical component of the Solara Pay Project. It is responsible for generating Solana blockchain wallets and stimulating transactions that occur on the Solana network. This service allows seamless integration with the Solana blockchain, enabling Solara Pay to automate payroll disbursements and financial transactions globally.
+**Solara Pay Next Backend** is a critical component of the **Solara Pay** Project. It is responsible for generating Solana blockchain wallets and stimulating transactions that occur on the Solana network. This service allows seamless integration with the Solana blockchain, enabling Solara Pay to automate payroll disbursements and financial transactions globally.
 
 ## Key Features
 
