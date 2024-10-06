@@ -1,6 +1,6 @@
 {
     "functions": {
-      "api/transaction/new/route.ts": {
+      "app/api/transaction/new/route.ts": {
         "maxDuration": 90
       }
     }
