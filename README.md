@@ -6,6 +6,16 @@
 
 **Solara Pay Next Backend** is a critical component of the **Solara Pay** Project. It is responsible for generating Solana blockchain wallets and stimulating transactions that occur on the Solana network. This service allows seamless integration with the Solana blockchain, enabling Solara Pay to automate payroll disbursements and financial transactions globally.
 
+## Important Repositories
+For Solara Pay to function properly, the following Repositories are important, we recommend checking out the following repositories:
+
+1. **[Solara Pay API & Scheduling System](https://github.com/Solara-Pay/api-backend)**
+ This repository houses the core API and Payroll Scheduling System of **Solara Pay**
+
+2. **[Solara Pay Web Interface](https://github.com/Solara-Pay/web)**
+   The user interface for managing payrolls, adding employees, and scheduling payments.
+
+
 ## Key Features
 
 - **Solana Wallet Generation**: Automatically create secure Solana wallets for users or companies to facilitate salary disbursements and payments on the blockchain.
@@ -19,15 +29,6 @@
 ## Technologies Used
 
 - **Solana Web3.js**: Used to interact with the Solana blockchain for wallet generation and transaction handling.
-
-## Important Repositories
-For Solara Pay to function properly, the following Repositories are important, we recommend checking out the following repositories:
-
-1. **[Solara Pay API & Scheduling System](https://github.com/Solara-Pay/api-backend)**
- This repository houses the core API and Payroll Scheduling System of **Solara Pay**
-
-2. **[Solara Pay Web Interface](https://github.com/Solara-Pay/web)**
-   The user interface for managing payrolls, adding employees, and scheduling payments.
 
 
 ## Getting Started
